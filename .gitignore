@@ -3,6 +3,8 @@
 *.a
 *.so
 *.out
+.gitignore
+.idea
 
 # Folders
 _obj
