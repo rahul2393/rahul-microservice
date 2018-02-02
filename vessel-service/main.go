@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	pb "github.com/rahul2393/rahul-microservice/vessel-service/proto/vessel"
+	pb "github.com/rahul-microservice/vessel-service/proto/vessel"
 	"github.com/micro/go-micro"
 	"os"
 )

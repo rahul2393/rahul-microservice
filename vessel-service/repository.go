@@ -1,7 +1,7 @@
 package main
 
 import (
-	pb "github.com/rahul2393/rahul-microservice/vessel-service/proto/vessel"
+	pb "github.com/rahul-microservice/vessel-service/proto/vessel"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )

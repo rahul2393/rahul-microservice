@@ -1,5 +1,5 @@
 build:
-	protoc -I. --go_out=plugins=micro:$(GOPATH)/src/github.com/rahul2393/rahul-microservice/consignment-service \
+	protoc -I. --go_out=plugins=micro:$(GOPATH)/src/github.com/rahul-microservice/consignment-service \
 		proto/consignment/consignment.proto
 	GOOS=linux GOARCH=amd64
 	docker build -t consignment-service .

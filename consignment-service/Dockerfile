@@ -1,6 +1,6 @@
 FROM golang:1.9.0 as builder
 
-WORKDIR /go/src/github.com/rahul2393/rahul-microservice/consignment-service
+WORKDIR /go/src/github.com/rahul-microservice/consignment-service
 
 COPY . .
 
@@ -13,6 +13,6 @@ RUN apk --no-cache add ca-certificates
 
 RUN mkdir /app
 WORKDIR /app
-COPY --from=builder /go/src/github.com/rahul2393/rahul-microservice/consignment-service/consignment-service .
+COPY --from=builder /go/src/github.com/rahul-microservice/consignment-service/consignment-service .
 
 CMD ["./consignment-service"]

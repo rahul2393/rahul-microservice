@@ -1,7 +1,7 @@
 package main
 
 import (
-pb "github.com/rahul2393/rahul-microservice/consignment-service/proto/consignment"
+pb "github.com/rahul-microservice/consignment-service/proto/consignment"
 "gopkg.in/mgo.v2"
 )
 

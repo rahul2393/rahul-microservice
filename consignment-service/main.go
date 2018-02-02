@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	pb "github.com/rahul2393/rahul-microservice/consignment-service/proto/consignment"
+	pb "github.com/rahul-microservice/consignment-service/proto/consignment"
 	vesselProto "github.com/rahul2393/rahul-microservice/vessel-service/proto/vessel"
 	"github.com/micro/go-micro"
 	"os"
@@ -24,7 +24,6 @@ func main() {
 	if host == "" {
 		host = defaultHost
 	}
-
 	session, err := CreateSession(host)
 
 	// Mgo creates a 'master' session, we need to end that session

@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 	"golang.org/x/net/context"
-	pb "github.com/rahul2393/rahul-microservice/consignment-service/proto/consignment"
+	pb "github.com/rahul-microservice/consignment-service/proto/consignment"
 	vesselProto "github.com/rahul2393/rahul-microservice/vessel-service/proto/vessel"
 	"gopkg.in/mgo.v2"
 )
